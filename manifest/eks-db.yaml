@@ -1,9 +1,0 @@
-# eks-db.yaml
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: db-service
-spec:
-  type: ExternalName 
-	externalName: RDS Endpoint 
