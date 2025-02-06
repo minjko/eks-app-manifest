@@ -10,7 +10,7 @@ spec:
   resources:
     requests:
       storage: 10Gi
-  storageClassName: gp3 # db-sc
+  storageClassName: db-sc
 ---
 apiVersion: v1
 kind: Service
